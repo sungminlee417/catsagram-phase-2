@@ -14,4 +14,5 @@ const initializePage = () => {
 window.onload = () => {
     initializePage();
     createMainContent();
+    document.body.style.textAlign = "center"
 };
